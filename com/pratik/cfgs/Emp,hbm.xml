@@ -1,0 +1,16 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<class name="com.nt.domain.Emp" table="Bank_Account">
+		<id name="accno" type="int" length="15">
+			<generator class="increment"></generator>
+		</id>
+		<version name="version" type="integer"/>
+		<property name="holdername" type="string" length="20"/>
+		<property name="acctype" type="string" length="20"/>
+		<property name="balance" type="float" length="10" precision="2"/>
+	</class> 
+</hibernate-mapping>
