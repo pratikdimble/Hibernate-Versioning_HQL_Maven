@@ -17,7 +17,7 @@
 		
 		<property name="hbm2ddl.auto">update</property>
 
-			<mapping resource="com/nt/cfgs/Emp.hbm.xml" />  
+			<mapping resource="com/pratik/cfgs/Emp.hbm.xml" />  
 
 </session-factory>
 </hibernate-configuration>
